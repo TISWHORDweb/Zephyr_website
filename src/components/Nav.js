@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../img/2N-Logo-Transparent.png'
+import { Link } from 'react-router-dom'
+
 
 function Nav() {
     return (
@@ -9,9 +11,10 @@ function Nav() {
                     <div className="container">
                         <nav class="navbar2 navbar navbar-expand-lg ">
                             <div class="container-fluid ">
-                                <li class="col-md-2 m-1 logo  "> <img src={Logo}
+                                <Link to="/" style={{ textDecoration: "none" }}>  <li class="col-md-2 m-1 logo  "> <img src={Logo}
                                     alt="" /> <h3 className='m-0'>Zephyr</h3>
-                                </li>
+                                </li></Link>
+
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -20,12 +23,12 @@ function Nav() {
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <div class="navbar-nav info ms-auto mb-2 mb-lg-0">
                                         <ul class="">
-                                            <li class="">ABOUT  </li>
-                                            <li class=" ">PROGRAMMES</li>
-                                            <li class="">MEDIA</li>
+                                            <Link to="/about" style={{ textDecoration: "none" }}> <li class="">ABOUT  </li></Link>
+                                            <Link to="/service" style={{ textDecoration: "none" }}>  <li class=" ">SERVICES</li></Link>
+                                            <Link to="#" style={{ textDecoration: "none" }}>  <li class=" ">BLOG</li></Link>
+                                            <Link to="#" style={{ textDecoration: "none" }}>  <li class=" ">CONTACT</li></Link>
                                             <li class="">RESOURCES</li>
                                             <li>CAREERS</li>
-                                            <li>CONTACT</li>
                                         </ul>
                                     </div>
 
