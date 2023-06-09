@@ -20,8 +20,7 @@ function Nav() {
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <div class="navbar-nav info ms-auto mb-2 mb-lg-0">
                                         <ul class="">
-                                            <li class="">HOME </li>
-                                            <li class="">ABOUT <span>US</span> </li>
+                                            <li class="">ABOUT  </li>
                                             <li class=" ">PROGRAMMES</li>
                                             <li class="">MEDIA</li>
                                             <li class="">RESOURCES</li>
