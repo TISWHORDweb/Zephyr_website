@@ -645,7 +645,8 @@
   background-color: var(--color-second) !important;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: var(--color-default);
   height: 60px;
 }
@@ -978,7 +979,8 @@ ul.list_ok li:before {
   width: 100%;
 }
 
-.overv h3, .overv h2 {
+.overv h3,
+.overv h2 {
   color: var(--color-second);
 }
 
@@ -1053,6 +1055,58 @@ ul.list_ok li:before {
 .content_center .lead {
   font-weight: 500;
   color: #999;
+}
+
+.parallax_window_in.contact {
+  height: 550px;
+  background-image: url(../img/tt.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: var(--color-default);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.box_style_2 {
+  padding: 15px 25px 25px 25px;
+  margin-bottom: 20px;
+  border: 1px dashed #ccc;
+  background-color: #fff;
+}
+
+.box_style_2 h4 {
+  margin: 10px 0 20px;
+}
+
+form label {
+  font-weight: 600;
+  color: var(--color-second);
+}
+form input,
+form textarea {
+  margin-bottom: 20px;
+}
+
+.box_style_2 ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.box_style_2 ul li {
+  margin-bottom: 10px;
+}
+
+.box_style_2 a,
+ul li a {
+  text-decoration: none;
+}
+
+.box_style_2 ul li:last-child {
+  margin-bottom: 0;
 }
 
 .parallax_window_in.service {

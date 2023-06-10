@@ -26,7 +26,7 @@ function Nav() {
                                             <Link to="/about" style={{ textDecoration: "none" }}> <li class="">ABOUT  </li></Link>
                                             <Link to="/service" style={{ textDecoration: "none" }}>  <li class=" ">SERVICES</li></Link>
                                             <Link to="#" style={{ textDecoration: "none" }}>  <li class=" ">BLOG</li></Link>
-                                            <Link to="#" style={{ textDecoration: "none" }}>  <li class=" ">CONTACT</li></Link>
+                                            <Link to="/contact" style={{ textDecoration: "none" }}>  <li class=" ">CONTACT</li></Link>
                                             <li class="">RESOURCES</li>
                                             <li>CAREERS</li>
                                         </ul>
