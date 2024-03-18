@@ -7,8 +7,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-$color1: rgb(59, 130, 246);
-$color2: hsl(225, 21.43%, 21.96%);
+$color1: #54D4BD;
+$color2: #0D5F50;
 $color3: #fff;
 
 .red {
@@ -178,7 +178,7 @@ $color3: #fff;
 }
 
 .news {
-    background-color: var(--color-light-purple);
+    background-color: rgba(238, 255, 252, 1);
 
     .head {
         p {
@@ -629,8 +629,8 @@ $color3: #fff;
     }
 
     .from {
-        background-color: rgb(0, 47, 128);
-        border: 1px solid rgb(0, 47, 128);
+        background-color: var(--color-second);
+        border: 1px solid var(--color-second);
         height: 200px;
 
         .inp {
@@ -784,7 +784,7 @@ $color3: #fff;
 
     .text {
         // color: var(--color-default);
-        background-color: rgba(15, 23, 43, 0.611);
+        background-color: rgba(238, 255, 252, 1);
 
         h1 {
             color: var(--color-second);
@@ -802,8 +802,8 @@ $color3: #fff;
 
 .slider1 {
     background-image: url(../img/img5.jpg);
-    background-blend-mode: lighten;
-    background-color: var(--color-default);
+    background-blend-mode:darken;
+   // background-color: var(--color-second);
 }
 
 .carousel-indicators {
@@ -820,14 +820,14 @@ $color3: #fff;
 
 .slider2 {
     background-image: url(../img/img3.jpg);
-    background-blend-mode: lighten;
-    background-color: var(--color-default);
+    background-blend-mode:darken;
+   // background-color: var(--color-second);
 }
 
 .slider3 {
     background-image: url(../img/img1.jpg);
-    background-blend-mode: lighten;
-    background-color: var(--color-default);
+    background-blend-mode:darken;
+   // background-color: var(--color-second);
 }
 
 h2.main_title {
