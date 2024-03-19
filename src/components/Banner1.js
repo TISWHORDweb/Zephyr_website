@@ -8,12 +8,13 @@ import Img5 from '../img/nurse.jpg'
 import Img6 from '../img/th.jpg'
 import Img7 from '../img/tt.jpg'
 import Img8 from '../img/nurse.jpg'
+import Banner from './Banner'
 
 function Banner1() {
 
     return (
         <div>
-            <Slider />
+            <Banner />
             <div class="">
                 <div class="container">
                     <div class=" pt-5 pb-5">

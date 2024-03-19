@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../img/2N-Logo-Transparent.png'
+import Logo from '../img/Tranquil1.png'
 import { Link } from 'react-router-dom'
 
 
@@ -12,7 +12,7 @@ function Nav() {
                         <nav class="navbar2 navbar navbar-expand-lg ">
                             <div class="container-fluid ">
                                 <Link to="/" style={{ textDecoration: "none" }}>  <li class="col-md-2 m-1 logo  "> <img src={Logo}
-                                    alt="" /> <h3 className='m-0'>Zephyr</h3>
+                                    alt="" />
                                 </li></Link>
 
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

@@ -3,6 +3,8 @@
 :root {
   --color-default:  #0D5F50;
   --color-seconds:  #54D4BD;
+  --color-second-dark: rgb(41, 35, 156);
+  --color-second-light:  rgba(238, 255, 252, 1);
   --color-white: #fff;
   --color-black: #000;
   --color-body: rgb(241, 245, 249);
@@ -17,6 +19,8 @@
   --color-pink: rgb(219, 39, 119);
   --color-default-light: hsl(225, 21.43%, 21.96%);
   --color-dull-white: rgb(199, 202, 205);
+  --color-light-green: rgb(45, 212, 191);
+  --color-dark: #0c5648;
 }
 
 * {
